@@ -26,7 +26,7 @@ const Animalbite = () => {
         <div className=" layout-division ">
        <SideNav menu="Animalbite"/>
             <main className=''>
-               <Header title='Animalbite Cases' subtitle=''/>
+               <Header title='Animalbite' subtitle=''/>
                 <div className='p-8'> 
                     <div className='flex justify-between items-center'>
                       <Searchbar/>

@@ -1,5 +1,5 @@
 
-import { Clapperboard, LayoutDashboard, Star } from 'lucide-react'
+import { AlignVerticalDistributeCenter, BetweenVerticalEnd, Clapperboard, LayoutDashboard, PackageIcon, Star } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { imgPath } from '../helpers/functions-general'
@@ -13,11 +13,11 @@ const SideNav = ({menu}) => {
     },
     { title : 'Analytics',
         slug : '/admin/Analytics',
-        icon : <Clapperboard/>,
+        icon : <AlignVerticalDistributeCenter/>,
     },
     { title : 'Animalbite',
         slug : '/admin/Animalbite',
-        icon : <Clapperboard/>,
+        icon : <BetweenVerticalEnd/>,
     },
        
     
@@ -25,7 +25,7 @@ const SideNav = ({menu}) => {
   return (
     <>
        <aside className='p-4  border-r border-line'>
-           <img src={`${imgPath}/logo-netflix.png`} alt="" className='w-[60%] mx-auto mt-2' />
+           <img src="" alt="" className='w-[60%] mx-auto mt-2' />
            <nav>
         <ul className='mt-10 '>
             {links.map((item,key)=>( <li className={`${menu === item.slug.replaceAll("/admin/","") ?

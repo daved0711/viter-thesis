@@ -38,13 +38,13 @@ const Header = ({title="", subtitle=""}) => {
                             <h4>{title}</h4>
                             <p>{subtitle}</p>
                         </div>
-                        <div className='flex items-center gap-6'>
+                        {/* <div className='flex items-center gap-6'>
                           
                             <Link to="/admin/settings"><Settings/></Link>
                             <button className='size-[30px] rounded-full bg-accent grid place-content-center text-white'>
                                 RP
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </header>
     </>
